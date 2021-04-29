@@ -12,7 +12,7 @@ const SignIn = ({ history }) => {
                 await firebaseConfig
                     .auth()
                     .signInWithEmailAndPassword(email.value, password.value);
-                history.push("/main");
+                history.push("/");
             } catch (error) {
                 alert(error);
             }
@@ -23,7 +23,7 @@ const SignIn = ({ history }) => {
     const { currentUser } = useContext(AuthContext);
 
     if (currentUser) {
-        return <Redirect to="/main" />;
+        return <Redirect to="/" />;
     }
 
     return (
