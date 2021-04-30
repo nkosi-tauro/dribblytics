@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+<h1 align="center">Dribblytics</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/nkosi-tauro/dribblytics?color=56BEB8">
 
-## Available Scripts
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/nkosi-tauro/dribblytics?color=56BEB8">
 
-In the project directory, you can run:
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/nkosi-tauro/dribblytics?color=56BEB8">
 
-### `yarn start`
+  <img alt="License" src="https://img.shields.io/github/license/nkosi-tauro/dribblytics?color=56BEB8">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/nkosi-tauro/dribblytics?color=56BEB8" /> -->
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/nkosi-tauro/dribblytics?color=56BEB8" /> -->
 
-### `yarn test`
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/nkosi-tauro/dribblytics?color=56BEB8" /> -->
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- Status -->
 
-### `yarn build`
+<!-- <h4 align="center"> 
+	🚧  Dribblytics 🚀 Under construction...  🚧
+</h4> 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<hr> -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## :dart: About ##
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+A login/Signup Page for Dribblytics. 
+Basketball analytics made simple.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## :rocket: Technologies ##
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The following tools were used in this project:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [Firebase](https://console.firebase.google.com/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## :white_check_mark: Requirements ##
 
-## Learn More
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## :checkered_flag: Starting ##
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# Clone this project
+$ git clone https://github.com/nkosi-tauro/dribblelytics
 
-### Code Splitting
+# Access
+$ cd dribblelytics
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Install dependencies
+$ yarn
 
-### Analyzing the Bundle Size
+# Run the project
+$ yarn start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# The server will initialize in the <http://localhost:3000>
+```
 
-### Making a Progressive Web App
+## :memo: License ##
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Made with :heart: by <a href="https://github.com/nkosi-tauro" target="_blank">Nkosilathi Tauro</a>
 
-### Deployment
+&#xa0;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="#top">Back to top</a>
