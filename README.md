@@ -46,10 +46,10 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/nkosi-tauro/dribblelytics
+$ git clone https://github.com/nkosi-tauro/dribblytics
 
 # Access
-$ cd dribblelytics
+$ cd dribblytics
 
 # Install dependencies
 $ yarn
