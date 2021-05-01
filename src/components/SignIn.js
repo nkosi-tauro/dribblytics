@@ -2,7 +2,7 @@ import React, { useCallback, useContext } from "react";
 import { withRouter, Redirect } from "react-router";
 import firebaseConfig from "../firebase.js";
 import { AuthContext } from "./Auth.js";
-import SignInImage from '../assets/basketPlayer.jpg'
+import SignInImage from '../assets/teenplay.jpg'
 
 
 const SignIn = ({ history }) => {
