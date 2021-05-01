@@ -2,6 +2,8 @@ import React, { useCallback, useContext } from "react";
 import { withRouter, Redirect } from "react-router";
 import firebaseConfig from "../firebase.js";
 import { AuthContext } from "./Auth.js";
+import SignInImage from '../assets/basketPlayer.jpg'
+
 
 const SignIn = ({ history }) => {
     const handleLogin = useCallback(
@@ -27,14 +29,13 @@ const SignIn = ({ history }) => {
     }
 
     return (
-        <div class="container mx-auto">
+        <div class="container mx-auto" >
             <div class="flex justify-center px-6 my-12">
 
                 <div class="w-full xl:w-3/4 lg:w-11/12 flex">
-                    {/* add Image here */}
                     <div
                         class="w-full h-auto bg-gray-400 hidden lg:block lg:w-1/2 bg-cover rounded-l-lg"
-                        
+                        style={{"background-image": `url(${SignInImage})`}}
                     ></div>
 
                     <div class="w-full lg:w-1/2 bg-white p-5 rounded-lg lg:rounded-l-none">
