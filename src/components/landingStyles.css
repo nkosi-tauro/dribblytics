@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.landh2 { 
+    position: absolute; 
+    top: 200px; 
+    left: 70px;  
+    font-family: 'Permanent Marker', cursive;
+    font-size:50px;
+}
+
+.landh2 span {
+    color: rgb(31, 30, 30);    
+    letter-spacing: -1px;  
+    font:10;
+    padding: 10px; 
+}
+
+h2 span.spacer {
+    padding:0 5px;
+}
+
