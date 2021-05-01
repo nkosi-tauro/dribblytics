@@ -8,11 +8,16 @@ const SignUp = ({ history }) => {
     const handleLogin = useCallback(
         async event => {
             event.preventDefault();
-            const { email, password } = event.target.elements;
+            const {username, email, password } = event.target.elements;
             try {
                 await firebaseConfig
                     .auth()
-                    .createUserWithEmailAndPassword(email.value, password.value);
+                    .createUserWithEmailAndPassword(email.value, password.value)
+                    .then(res => {
+                        return res.user.updateProfile({
+                            displayName: username.value
+                        })
+                    })
                 history.push("/signin");
             } catch (error) {
                 alert(error);
@@ -43,6 +48,17 @@ const SignUp = ({ history }) => {
                         <form class="px-8 pt-6 pb-8 mb-4 bg-white rounded" onSubmit={handleLogin}>
                             <div class="mb-4">
                                 <label class="block mb-2 text-sm font-bold text-gray-700" for="username">
+                                    Username
+                                </label>
+                                <input
+                                    class="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+                                    name="username"
+                                    type="text"
+                                    placeholder="e.g Nkosi"
+                                />
+                            </div>
+                            <div class="mb-4">
+                                <label class="block mb-2 text-sm font-bold text-gray-700" for="email">
                                     Email
                                 </label>
                                 <input
