@@ -11,7 +11,7 @@ function Landing() {
                 <animated.h2 className="landh2" style={props}><span>Dribblytics:<span class='spacer'></span><br /><span class='spacer'></span>Basketball Analytics Made Simple</span></animated.h2>
             </div>
             <div>
-                <footer>Test</footer>
+                <footer class="text-center p-4 text-xl bold">DRIBBLYTICS🏀</footer>
             </div>
         </div>
     )
