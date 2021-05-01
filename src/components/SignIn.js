@@ -29,53 +29,53 @@ const SignIn = ({ history }) => {
     }
 
     return (
-        <div class="container mx-auto" >
-            <div class="flex justify-center px-6 my-12">
+        <div className="container mx-auto" >
+            <div className="flex justify-center px-6 my-12">
 
-                <div class="w-full xl:w-3/4 lg:w-11/12 flex">
+                <div className="w-full xl:w-3/4 lg:w-11/12 flex">
                     <div
-                        class="w-full h-auto bg-gray-400 hidden lg:block lg:w-1/2 bg-cover rounded-l-lg"
+                        className="w-full h-auto bg-gray-400 hidden lg:block lg:w-1/2 bg-cover rounded-l-lg"
                         style={{"background-image": `url(${SignInImage})`}}
                     ></div>
 
-                    <div class="w-full lg:w-1/2 bg-white p-5 rounded-lg lg:rounded-l-none">
-                        <h3 class="pt-4 text-2xl text-center">Sign In!</h3>
-                        <form class="px-8 pt-6 pb-8 mb-4 bg-white rounded" onSubmit={handleLogin}>
-                            <div class="mb-4">
-                                <label class="block mb-2 text-sm font-bold text-gray-700" for="username">
+                    <div className="w-full lg:w-1/2 bg-white p-5 rounded-lg lg:rounded-l-none">
+                        <h3 className="pt-4 text-2xl text-center">Sign In!</h3>
+                        <form className="px-8 pt-6 pb-8 mb-4 bg-white rounded" onSubmit={handleLogin}>
+                            <div className="mb-4">
+                                <label className="block mb-2 text-sm font-bold text-gray-700" for="username">
                                     Email
                                 </label>
                                 <input
-                                    class="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+                                    className="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
                                     name="email"
                                     type="email"
                                     placeholder="email"
                                 />
                             </div>
-                            <div class="mb-4">
-                                <label class="block mb-2 text-sm font-bold text-gray-700" for="password">
+                            <div className="mb-4">
+                                <label className="block mb-2 text-sm font-bold text-gray-700" for="password">
                                     Password
                                 </label>
                                 <input
-                                    class="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 border  rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+                                    className="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 border  rounded shadow appearance-none focus:outline-none focus:shadow-outline"
                                     name="password"
                                     type="password"
                                     placeholder="******************"
                                 />
                 
                             </div>
-                            <div class="mb-6 text-center">
+                            <div className="mb-6 text-center">
                                 <button
-                                    class="w-full px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline"
+                                    className="w-full px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline"
                                     type="submit"
                                 >
                                     Sign In
                                 </button>
                             </div>
-                            <hr class="mb-6 border-t" />
-                            <div class="text-center">
+                            <hr className="mb-6 border-t" />
+                            <div className="text-center">
                                 <a
-                                    class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
+                                    className="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
                                 >
                                     Need an Account? Create Here!
                                 </a>

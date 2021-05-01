@@ -8,10 +8,10 @@ function Landing() {
     return (
         <div className="landing-Page">
             <div style={{"backgroundImage": `url(${BackImage})`,"height": "500px", "backgroundSize": "cover", "backgroundRepeat": "no-repeat"}}>
-                <animated.h2 className="landh2" style={props}><span>Dribblytics:<span class='spacer'></span><br /><span class='spacer'></span>Basketball Analytics Made Simple</span></animated.h2>
+                <animated.h2 className="landh2" style={props}><span>Dribblytics:<span className='spacer'></span><br /><span className='spacer'></span>Basketball Analytics Made Simple</span></animated.h2>
             </div>
             <div>
-                <footer class="text-center p-4 text-xl bold">DRIBBLYTICS🏀</footer>
+                <footer className="text-center p-4 text-xl bold">DRIBBLYTICS🏀</footer>
             </div>
         </div>
     )
