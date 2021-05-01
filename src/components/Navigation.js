@@ -3,6 +3,8 @@ import { AuthProvider } from "./Auth";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import SignIn from "./SignIn";
 import SignUp from "./SignUp";
+import Main from "./Main";
+import PrivateRoute from "./PrivateRoute";
 
 function Navigation() {
     return (
@@ -32,10 +34,11 @@ function Navigation() {
 
                 </div>
                 <Switch>
-                    <Route path="/signin">
+                    <PrivateRoute exact path="/" component={Main} />
+                    <Route exact path="/signin">
                         <SignIn />
                     </Route>
-                    <Route path="/signup">
+                    <Route exact path="/signup">
                         <SignUp />
                     </Route> 
                 </Switch>
