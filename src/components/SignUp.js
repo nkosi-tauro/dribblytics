@@ -40,7 +40,7 @@ const SignUp = ({ history }) => {
                     {/* add Image here */}
                     <div
                         className="w-full h-auto bg-gray-400 hidden lg:block lg:w-1/2 bg-cover rounded-l-lg"
-                        style={{"background-image": `url(${SignUpImage})`}}
+                        style={{"backgroundImage": `url(${SignUpImage})`}}
                     ></div>
 
                     <div className="w-full lg:w-1/2 bg-white p-5 rounded-lg lg:rounded-l-none">
