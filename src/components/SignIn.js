@@ -74,11 +74,6 @@ const SignIn = ({ history }) => {
                             </div>
                             <hr className="mb-6 border-t" />
                             <div className="text-center">
-                                <a
-                                    className="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
-                                >
-                                    Need an Account? Create Here!
-                                </a>
                             </div>
                         </form>
                     </div>

@@ -90,11 +90,6 @@ const SignUp = ({ history }) => {
                             </div>
                             <hr className="mb-6 border-t" />
                             <div className="text-center">
-                                <a
-                                    className="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
-                                >
-                                    Already Have an Account? Sign In Here!
-                                </a>
                             </div>
                         </form>
                     </div>
