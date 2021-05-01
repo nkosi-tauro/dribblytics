@@ -42,7 +42,7 @@ const SignIn = ({ history }) => {
                         <h3 className="pt-4 text-2xl text-center">Sign In!</h3>
                         <form className="px-8 pt-6 pb-8 mb-4 bg-white rounded" onSubmit={handleLogin}>
                             <div className="mb-4">
-                                <label className="block mb-2 text-sm font-bold text-gray-700" for="username">
+                                <label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="username">
                                     Email
                                 </label>
                                 <input
@@ -53,7 +53,7 @@ const SignIn = ({ history }) => {
                                 />
                             </div>
                             <div className="mb-4">
-                                <label className="block mb-2 text-sm font-bold text-gray-700" for="password">
+                                <label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="password">
                                     Password
                                 </label>
                                 <input
