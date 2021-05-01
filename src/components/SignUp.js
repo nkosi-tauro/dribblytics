@@ -2,6 +2,7 @@ import React, { useCallback, useContext } from "react";
 import { withRouter, Redirect } from "react-router";
 import firebaseConfig from "../firebase.js";
 import { AuthContext } from "./Auth.js";
+import SignUpImage from '../assets/Wavy.jpg'
 
 const SignUp = ({ history }) => {
     const handleLogin = useCallback(
@@ -34,7 +35,7 @@ const SignUp = ({ history }) => {
                     {/* add Image here */}
                     <div
                         class="w-full h-auto bg-gray-400 hidden lg:block lg:w-1/2 bg-cover rounded-l-lg"
-                        
+                        style={{"background-image": `url(${SignUpImage})`}}
                     ></div>
 
                     <div class="w-full lg:w-1/2 bg-white p-5 rounded-lg lg:rounded-l-none">
